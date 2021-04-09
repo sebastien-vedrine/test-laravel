@@ -22,7 +22,7 @@ Vous pouvez également vous aider d'internet à tout moment.
 - Clonez ce repository git sur votre ordinateur
 - Lancez la commande `composer install` pour installer les dépendances
 - Exécutez la commande `php artisan serve` pour lancer un serveur web qui écoute sur [http://127.0.0.1:8000](http://127.0.0.1:8000)
-- Créez un controller `AnimalController` qui contiendra les données de vos animaux (name, photo, description, link...)
+- Créez un controller `AnimalController` contenant une méthode `getAnimals()` qui permettra d'afficher les données de vos animaux (name, photo, description, link...)
 - Créez un template blade `animals.blade.php`
 - Créez une route `/animals` qui redirige vers ce template
 - Passez les données des animaux au template via le controller
@@ -33,7 +33,7 @@ Vous pouvez également vous aider d'internet à tout moment.
 - Rangez les animaux par catégories
 
 ### Astuces
-- Les images de tous les animaux se trouvent dans le dossier `public/img/`. Pour afficher une image contenue dans ce répertoire, vous pouvez vous aider du [helper Laravel `asset()`]((https://laravel.com/docs/8.x/helpers#method-asset)) dans votre fichier Blade.
+- Les images de tous les animaux se trouvent dans le dossier `public/img/`. Pour afficher une image contenue dans ce répertoire, vous pouvez vous aider du [helper Laravel `asset()`]((https://laravel.com/docs/8.x/helpers#method-asset)).
 - N'hésitez pas à utiliser les fonctions [`dump()`](https://laravel.com/docs/8.x/helpers#method-dump) et [`dd()`](https://laravel.com/docs/8.x/helpers#method-dd) pour débuguer.
 
 ## Exemple de résultat
